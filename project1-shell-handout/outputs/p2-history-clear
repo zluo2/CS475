@@ -1,0 +1,8 @@
+475$a
+475$one
+475$0: /bin/cat inputs/data/a
+1: /bin/echo one
+475$475$475$two
+475$0: /bin/echo two
+475$0: /bin/echo two
+475$

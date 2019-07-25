@@ -1,0 +1,11 @@
+To test your work:
+linux> make clean; make; ./cs475sh
+
+To run the same autograder that Autolab will use when you submit:
+linux> python driver.py
+
+Files:
+README          This file
+Makefile        Compiles shell.c
+driver.py       Autolab autograder
+shell.c         Empty C file that you will edit

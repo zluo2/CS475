@@ -1,0 +1,8 @@
+/bin/cat inputs/data/a
+/bin/echo one
+history
+history -c
+history
+/bin/echo two
+history
+history

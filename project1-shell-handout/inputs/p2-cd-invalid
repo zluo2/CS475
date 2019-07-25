@@ -1,0 +1,2 @@
+cd inputs/foo
+/bin/cat inputs/data/a

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: edu.gmu.cs475.P3ServerTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 16.764 sec <<< FAILURE! - in edu.gmu.cs475.P3ServerTests
+testHeartbeatOnlyExpiresCorrectLock(edu.gmu.cs475.P3ServerTests)  Time elapsed: 2.154 sec  <<< FAILURE!
+java.lang.AssertionError: Unexpected exception
+	at edu.gmu.cs475.P3ServerTests.testHeartbeatOnlyExpiresCorrectLock(P3ServerTests.java:141)
+
+testUnlockInvalidStamp(edu.gmu.cs475.P3ServerTests)  Time elapsed: 0.012 sec  <<< ERROR!
+java.lang.IllegalMonitorStateException
+	at edu.gmu.cs475.P3ServerTests.testUnlockInvalidStamp(P3ServerTests.java:227)
+
+testLockExpires(edu.gmu.cs475.P3ServerTests)  Time elapsed: 4.012 sec  <<< FAILURE!
+java.lang.AssertionError: IllegalMonitorStateException should be thrown after lock times out
+	at edu.gmu.cs475.P3ServerTests.testLockExpires(P3ServerTests.java:48)
+

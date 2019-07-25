@@ -1,0 +1,3 @@
+/bin/ls inputs/data
+/bin/cat inputs/data/a
+history
